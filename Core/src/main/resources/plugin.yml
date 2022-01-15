@@ -1,0 +1,17 @@
+name: IronGolem
+version: ${project.version}
+main: me.orlaando.irongolem.IronGolem
+api-version: 1.13
+prefix: IG
+depend: [WorldEdit]
+authors: [Citymonstret]
+description: Minecraft block logging plugin
+website: https://intellectualsites.com
+commands:
+  irongolem:
+    aliases: [ig]
+    description: IronGolem main command
+    permission: irongolem.use
+permissions:
+  irongolem.use:
+    default: op

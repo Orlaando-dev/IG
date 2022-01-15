@@ -1,0 +1,14 @@
+name: IronGolem
+version: 1.0-SNAPSHOT
+main: me.orlaando.irongolem.IronGolem
+api-version: 1.13
+prefix: IG
+depend: [WorldEdit]
+commands:
+  irongolem:
+    aliases: [ig]
+    description: IronGolem main command
+    permission: irongolem.use
+permissions:
+  irongolem.use:
+    default: op
